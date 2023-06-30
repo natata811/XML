@@ -1,1 +1,9 @@
-git status
+<?xml version="1.0"?>
+<I>
+  <NAME>Nataliia</NAME>
+  <SURNAME>Ananina</SURNAME>
+ <PATRONIMYC>Vadimovna</PATRONIMYC>
+  <AGE>42</AGE>
+  <NUMBER_OF_PETS>1</NUMBER_OF_PETS>
+  <SALARY>1500</SALARY>
+ </I>
