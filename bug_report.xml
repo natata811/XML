@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<BUG>
+  <ID>№ST-61</ID>
+  <Reporter>Nataliia Ananina</Reporter>
+  <Priority>Medium</Priority>
+  <Severity>Major</Severity>
+  <Platform>Google Chrome 114.0.5735.134</Platform>
+  <OS>Android</OS>
+  <OS_Version>10 QKQ1.200512.002</OS_Version>
+  <Summary>Вводиться забагато символів в поле “Ім'я“ у блоці “Записатись на тренування</Summary>
+  <Steps_To_Reproduce>
+      <Step1>Відкрити сайт Тетяна Подзігун - персональний тренер</Step1>
+      <Step2>Перейти до блоку “Записатись на тренування</Step2>
+      <Step3>Ввести забагато валідних символів (наприклад 50) в поле“Ім'я"</Step3>
+  </Steps_To_Reproduce>
+  <Actual_result>при введенні великої кількості валідних символів в поле “Ім'я“ , поле не підсвічується червоним. Не вискакує повідомлення, що поле має містити від 2 до 30 символів. Кнопка записатись на тренування працює. Після відправки форми, з'являється повідомлення про залишення заявки</Actual_result>
+  <Expected_result>Android Studio</Expected_result>
+ </BUG> 
